@@ -13,6 +13,6 @@ public class CompanyController {
 
     @RequestMapping(version = "1.0", method = RequestMethod.GET)
     public ResponseEntity<String> getAllCompanies() {
-        return ResponseEntity.ok("call to method getAllCompany v1.0");
+        return ResponseEntity.ok("call to method getAllCompany v1.0.0");
     }
 }
