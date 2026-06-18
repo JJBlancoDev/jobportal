@@ -1,13 +1,9 @@
 package com.jjblancodev.jobportal.company.controller;
 
+import com.jjblancodev.jobportal.company.service.ICompanyService;
 import com.jjblancodev.jobportal.dto.CompanyDto;
-import com.jjblancodev.jobportal.service.ICompanyService;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
